@@ -1,27 +1,17 @@
-
-title: ghymacx's Site
-author:
-  name: ghymacx
-  email: your-email@domain.com
-
-# The `>` after `description:` means to ignore line-breaks until next key.
-# If you want to omit the line-break after the end of text, use `>-` instead.
-description: >
-  Write an awesome description for your new site here. You can edit this line
-  in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
+title: [ghymacx's Site]
+description: [tl;dr]
 
 # Build settings
-
-theme: minima
+remote_theme: pages-themes/cayman@v0.2.0
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
   - jekyll-seo-tag
 
 # Theme-specific settings
 
-minima:
+jekyll-theme-cayman:
   # Minima date format.
   # Refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this.
   #
